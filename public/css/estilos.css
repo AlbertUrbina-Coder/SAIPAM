@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: black;
+}
+.container{
+	width: 1230px;
+	background: white;
+	margin: 10px auto;
+}
+.superior{
+	background: black;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	width: : 150px;
+	padding: 20px;
+	cursor: pointer;
+}
+.menu{
+	float: left;
+	padding: 50px;
+}
+.opciones li{
+	float: left;
+	list-style: none;
+}
+.opciones li a{
+	color: white;
+	padding: 25px;
+	text-decoration: none;
+}
+.opciones li a:hover{
+	background: #EBDEF0;
+}
+.slider{
+	width: 100%;
+	height: 500px;
+	margin: auto;
+	overflow: hidden;
+}
+.slider ul{
+	display: flex;
+	padding: 0;
+	width: 400%;
+
+	animation: cambio 10s infinite alternate;
+}
+
+.slider li{
+	width: 100%;
+	list-style: none;
+}
+.slider img{
+	width: 100%;
+}
+
+@keyframes cambio{
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+/**** INICIO ESTILO DEL CUERPO*/
+.cuerpo{
+	overflow: : hidden;
+}
+
+/**** INICIO ESTILO DEL CUERPO DE CAJAS*/
+
+.caja1{
+	float: left;
+	width: 370px;
+	margin: 8px;
+	border: 1px solid;
+}
+.caja2{
+	float: left;
+	width: 370px;
+	margin: 8px;
+	border: 1px solid;
+}
+.caja3{
+	float: left;
+	width: 390px;
+	margin: 8px;
+	border: 1px solid;
+}
+.subtitulo{
+	background: #D0D3D4;
+	text-align: center;
+	color: white;
+}
+.servicios{
+	color: black;
+	text-align: center;
+	padding: 10px 0;
+}
+.efecto:hover{
+	opacity: 0.6;
+	cursor: pointer;
+}
+.contenido{
+	padding: 15px;
+	text-align: justify;
+	color: white;
+}
+.boton{
+	padding: 5px 20px;
+	margin: 8px 0;
+	background: #D0D3D4;
+	color: black;
+	cursor: pointer;
+	border-radius: 5px;
+}
+.boton:hover{
+	background: black;
+}
+/*INICIO ESTILO DE FOOTER*/
+
+.footer{
+	background: #BDC3C7;
+	widows: 100%;
+	height: 30px;
+}
+.izquierda{
+	float: left;
+	width: 550px;
+	padding: 20px;
+	color: white;
+}
+.derecha{
+	float: left;
+	width: 550px;
+	padding: 20px;
+}
+.siguenos{
+	color:white;
+	text-align: center;
+}
+.autor{
+	color:white;
+}
+/*FIN ESTILO DE FOOTER*/
