@@ -103,11 +103,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                             <a style="margin:0 0 0 20px" class="btn btn-light" href="{{ url('/eventos') }}">Panel Administrador</a>
                                         @else
                                             <a style="margin:0 0 0 20px" class="btn btn-light" href="{{ route('login') }}" >Ingresar</a>
-
+                                        <!--
                                             @if (Route::has('register'))
                                                 <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Registrarse</a>
                                             @endif
-
+                                        -->
                                         @endauth
                             </li>
 						</ul>
