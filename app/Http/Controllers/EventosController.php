@@ -132,11 +132,9 @@ class EventosController extends Controller
         return redirect('/eventos');
     }
 
-    public function cierre(Request $request, $id){
+    public function cierre($id){
 
         $balanceEvento = Eventos::find($id);
-        $balanceEvento->costo=$request->get('costo');
-        $$balanceEvento->save();
         return view('eventos.cierre', $balanceEvento);
     }
 
